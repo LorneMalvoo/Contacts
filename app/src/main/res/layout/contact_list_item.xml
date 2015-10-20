@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="25dp"
+    android:background="#53564182">
+
+    <TextView
+        android:id="@+id/contactId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="1" />
+
+    <TextView
+        android:id="@+id/contactFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:layout_toEndOf="@id/contactId"
+        tools:text="Sponge"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/contactLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        tools:text="Bob"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/contactFirstName"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:id="@+id/contactPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        tools:text="0000"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/contactLastName"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

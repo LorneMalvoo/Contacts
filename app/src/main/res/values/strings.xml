@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Contacts</string>
+
+    <string name="first_name">Prénom</string>
+    <string name="last_name">Nom</string>
+    <string name="phone_number">Téléphone</string>
+    <string name="add_button">Ajouter</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
